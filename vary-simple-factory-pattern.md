@@ -32,14 +32,11 @@ public class BreadCooker implements Cooker{
 
 // 工厂类：注意这里的工厂类是没有接口的
 public class CookerFactory{
-    // 这里不再需要参数
-    public Cooker produce(){
-        public Cooker produceCookieCooker(){
-            return new CookieCooker();
-        }
-        public Cooker produceBreadCooker(){
-            return new BreadCooker();
-        }
+    public Cooker produceCookieCooker(){
+        return new CookieCooker();
+    }
+    public Cooker produceBreadCooker(){
+        return new BreadCooker();
     }
 }
 
