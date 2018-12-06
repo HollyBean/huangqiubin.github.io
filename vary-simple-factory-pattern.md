@@ -1,7 +1,7 @@
 ## 多方法简单工厂模式
 这种设计模式与我之前写的[普通简单工厂设计模式](https://github.com/HollyBean/huangqiubin.github.io/blob/master/general-simple-factory-pattern.md "普通简单工厂模式")
 (以下简称GSFP)一样，也不属于常见的设计模式；这种设计模式是对GSFP的改进，GSFP如果输入的参数有误，那么工厂将无法正常生产；而多方法简单工厂模式则是将多种
-方法都集合到工厂类中，然后通过工厂实例来调用不同的方法；简图如下：
+方法都集合到工厂类中，然后通过工厂实例来生产不同的实现类；简图如下：
 
 ![image](http://pjb1sfuje.bkt.clouddn.com/vary-simple-factory-pattern.jpg "多方法简单工厂")
 
